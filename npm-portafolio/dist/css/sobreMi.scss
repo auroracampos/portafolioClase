@@ -1,0 +1,316 @@
+
+
+#cabecera {
+	position: relative;
+	padding: 3%;
+}
+
+#cabecera img {
+  width: 58%;
+	height: 100%;
+	margin-left: 32%;
+  margin-top: -44%;
+	position: relative;
+ }
+}
+
+#cabecera .contenedor{
+	position: absolute;
+	top: 35%;
+}
+
+.contenedor {
+	font-family: courier;
+	color: 57B78D;
+	margin-left: 0%;
+}
+.contenedor	h1{
+  font-size: 55px;
+  line-height: 43px;
+	color: #57B78D;
+	margin-left: 32px;
+	position: relative;
+	}
+.contenedor p{
+	font-size: 15px;
+	line-height: 23px;
+  margin-left: 32px;
+	margin-top: 0%;
+	position: absolute;
+}
+
+.contacto ul{
+		list-style: none;
+	  display: flex;
+	  flex-direction: row;
+		margin-left: 30px;
+}
+.contacto li {
+	margin-right: 30px;
+}
+
+.email, .linkedin, .behance{
+	width: 100%;
+	height: 100;
+	position:relative;
+	margin-bottom: 20%;
+}
+
+.infoSobreMi h2{
+	color: #57B78D;
+	width: 87%;
+	padding: 7%;
+	margin-bottom: -9%;
+}
+.infoSobreMi p{
+	width: 87%;
+	padding: 7%;
+	font-family: courier;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.habilidades{
+	width: 64%;
+	font-family: courier;
+  font-size: 16px;
+}
+.habilidades h3{
+	margin-left: 9%;
+	margin-top: 5%;
+}
+.habilidades ul{
+		display: flex;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    margin-top: 5%;
+    position: relative;
+		justify-content: space-around;
+		align-content: flex-start;
+		list-style: none;
+}
+	.habilidades li{
+		width: 45%;
+		text-align: center;
+		margin-bottom: 16px;
+	}
+	.experienciaLaboral h4{
+			color: #57B78D;
+			margin-top: 10px;
+	}
+	.experienciaLaboral {
+		margin-top: 7%;
+		margin-left: 7%;
+	}
+.experienciaLaboral h3{
+	margin-bottom: 20px;
+}
+
+	.idiomas{
+		margin-left: 7%;
+		margin-top: 7%;
+	}
+	.idiomas ul{
+		margin-top: 7%;
+		list-style: none;
+		color: #57B78D;
+		width: 20%;
+	}
+	.idiomas li{
+		margin-bottom: 31%;
+	}
+
+	.interesesYaficiones h3{
+		margin-left: 7%;
+		margin-top: 7%;
+	}
+	.interesesYaficiones ul{
+		margin-top: 7%;
+		list-style: none;
+		width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    position: relative;
+    justify-content: space-around;
+	}
+		.interesesYaficiones li{
+			margin-right: 7%;
+		}
+@media (min-width:480px) {
+	.contenedor h1{
+		font-size: 80px;
+		line-height: 62px;
+		margin-left: 8%;
+	}
+	.contenedor p{
+		font-size: 21px;
+		margin-left: 8%;
+		width: 69%;
+		padding: 0%;
+		top: 104%;
+	}
+
+	#cabecera img{
+		width: 45%;
+		margin-left: 39%;
+		margin-top: 6%;
+	}
+	#cabecera .contenedor{
+		position: absolute;
+		top: 12%;
+
+	}
+	#cabecera{
+		margin-top: 90px;
+		position: relative;
+		padding: 5%;
+	}
+	.contacto{
+		margin-top: -3%;
+		position: relative;
+		width: 66%;
+		flex-direction: row;
+		display: flex;
+		margin-left: 2%;
+	}
+
+	.infoSobreMi{
+		width: 119%;
+		margin-top: -9%;
+	}
+	.infoSobreMi h2{
+		width: 66%;
+		padding-bottom: 4%;
+		font-size: 2.3rem;
+	}
+	.infoSobreMi p{
+		width: 69%;
+		font-family: courier;
+		font-size: 16px;
+		line-height: 22px;
+		text-align: left;
+	}
+	.habilidades{
+		margin-left: 5%;
+	}
+	.habilidades ul{
+		display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    justify-content: space-around;
+		list-style: none;
+	}
+	.habilidades h3{
+		margin-left: 6%;
+		margin-top: 5%;
+	}
+	.habilidades li{
+		width: 31%;
+		text-align: center;
+		margin-bottom: 16px;
+		margin-right: 10%;
+	}
+	.interesesYaficiones ul{
+		width: 62%;
+	}
+}
+
+@media (min-width:1024px) {
+	p{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	h2{
+		font-size: 2.5rem;
+	}
+	h3{
+		font-size: 20px;
+	}
+	.contacto {
+    width: 42%;
+    display: flex;
+		flex-direction: row;
+    margin-left: 21.8%;
+	}
+	.contacto li{
+		margin-right: 50%;
+	}
+	.contenedor p{
+		font-size: 39px;
+	}
+	.contenedor h1{
+		font-size: 150px;
+		line-height: 116px;
+	}
+	#cabecera .contenedor{
+		margin-left: 14%;
+		margin-top: -4px;
+	}
+	#cabecera img{
+		width: 26%;
+    margin-left: 41%;
+		margin-top: 0px;
+		margin-bottom: 3%;
+	}
+
+	.infoSobreMi{
+		width: 77%;
+    margin-left: 13.6%;
+
+	}
+	.infoSobreMi h2{
+		width: 66%;
+		padding-bottom: 4%;
+		margin-left: 6%;
+	}
+	.infoSobreMi p{
+		width: 69%;
+    margin-left: 6%;
+    font-family: courier;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+	}
+	.habilidades{
+		width: 40%;
+		margin-left: 22%;
+		margin-top: 7%;
+	}
+	.habilidades ul{
+		width: 100%;
+		display: flex;
+    justify-content: space-around;
+	}
+	.habilidades h3{
+		margin-top: -11%;
+	}
+	.habilidades li{
+		width: 14%;
+		margin-right: 17px;
+	}
+	.experienciaLaboral{
+		margin-top: 3%;
+		margin-left: 24%;
+	}
+	.experienciaLaboral h4{
+		font-size: 1.5rem;
+	}
+	.idiomas{
+		margin-top: 4%;
+		margin-left: 24%;
+	}
+	.idiomas ul{
+		width: 18%;
+		margin-top: 3%;
+	}
+
+	.interesesYaficiones{
+		margin-left: 18%;
+		margin-top: -2%;
+	}
+	.interesesYaficiones h3{
+
+	}
+}

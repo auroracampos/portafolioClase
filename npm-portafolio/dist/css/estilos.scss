@@ -1,0 +1,51 @@
+@import "menuDesplegable.scss";
+@import "sobreMi.scss";
+
+#main {
+	background-color: #5BC6A1;
+  padding: 10px;
+  margin: 10px;
+}
+.border {
+	background-color: white;
+	margin-top: 0%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Courier', serif;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+
+.contenedor {
+	width: 98%;
+	margin: auto;
+	margin-top: -6px;
+}
+
+header .contenedor {
+	display: table;
+}
+
+section {
+	width: 100%;
+}
+
+@media (min-width:1024px) {
+	.contenedor {
+		width: 1000px;
+	}
+}
