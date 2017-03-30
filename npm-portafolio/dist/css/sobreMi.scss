@@ -3,6 +3,7 @@
 #cabecera {
 	position: relative;
 	padding: 3%;
+	padding-top: 25%;
 }
 
 #cabecera img {
@@ -28,13 +29,13 @@
   font-size: 55px;
   line-height: 43px;
 	color: #57B78D;
-	margin-left: 32px;
+	margin-left: 14px;
 	position: relative;
 	}
 .contenedor p{
-	font-size: 15px;
+	font-size: 14.5px;
 	line-height: 23px;
-  margin-left: 32px;
+  margin-left: 16px;
 	margin-top: 0%;
 	position: absolute;
 }
@@ -166,6 +167,7 @@
 		margin-top: 90px;
 		position: relative;
 		padding: 5%;
+		padding-top: 25%;
 	}
 	.contacto{
 		margin-top: -3%;
@@ -244,15 +246,24 @@
 		font-size: 150px;
 		line-height: 116px;
 	}
+	.contenedor{
+		width: 1649px;
+		margin-top: 0.5%;
+	}
 	#cabecera .contenedor{
-		margin-left: 14%;
-		margin-top: -4px;
+		margin-left: 13%;
+		margin-top: 52px;
 	}
 	#cabecera img{
 		width: 26%;
-    margin-left: 41%;
+    margin-left: 44%;
 		margin-top: 0px;
 		margin-bottom: 3%;
+	}
+	#cabecera {
+		position: relative;
+		padding: 3%;
+		padding-top: 10%;
 	}
 
 	.infoSobreMi{

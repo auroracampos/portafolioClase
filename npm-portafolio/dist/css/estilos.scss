@@ -10,6 +10,29 @@
 	background-color: white;
 	margin-top: 0%;
 }
+@media (min-width:1024px) {
+	#main {
+		background-color: #5BC6A1;
+	  padding: 15px;
+	  margin: 38px;
+		width: 96%;
+	}
+	.border {
+		background-color: white;
+		margin-top: -87px;
+	}
+	.icon-menu{
+		float: right;
+    font-size: 28px;
+    margin: 55px 51px;
+    cursor: pointer;
+	}
+	.logotipo{
+		margin-left: 53px;
+		margin-top: 60px;
+		width: 4%;
+	}
+}
 
 * {
 	margin: 0;
