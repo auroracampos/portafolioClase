@@ -1,0 +1,119 @@
+
+
+body{
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+}
+
+
+.informacionProyecto{
+  width: 90%;
+  margin: 18px;
+}
+.cabecera{
+   width: 100%;
+   height: 100%;
+}
+.foto-cabecera{
+  max-width: 100%;
+}
+
+
+ .introduccion .textoBold{
+   font-weight: bold;
+ }
+
+ .textoBold{
+   margin-bottom: 10px;
+ }
+
+
+.programasUtilizados ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  width: 100px;
+}
+
+div.infoReferente{
+      height: 100%;
+      width: 100%;
+      }
+
+.documentacion img{
+  display: block;
+  margin-bottom: 17px;
+  width: 100%;
+}
+
+.resultadoFinal img{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.aplicaciones img{
+  width: 100%;
+}
+.referente{
+  display: flex;
+  flex-direction: column;
+}
+.imagen1 img{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.imagen2 img{
+  width: 100%;
+}
+    @media (min-width:768px) {
+
+    .informacionProyecto{
+      margin: 41px;
+    }
+
+
+    .referente{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: flex-start;
+    }
+    .imagen1{
+      width: 38%;
+      margin-right: 10px;
+    }
+    .imagen2{
+      width: 62%;}
+
+    .documentacion img{
+      width: 43%;
+      float: left;
+      margin-right: 43px;
+    }
+    .documentacion p{
+      width: 95%;
+    }
+
+  }
+
+  @media (min-width:1024px) {
+    .informacionProyecto{
+       width: 70%;
+       margin: 0 auto;
+     }
+      .documentacion{
+        margin-bottom: 29%;
+      }
+      .documentacion img{
+        margin-right: 69px;
+      }
+      .documentacion p{
+        width: 100%;
+        margin-bottom: 36%;
+      }
+  }

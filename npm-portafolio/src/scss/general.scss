@@ -1,0 +1,150 @@
+@import "_menuDesplegable.scss";
+@import "_titellestiu.scss";
+@import "_greenpeace.scss";
+@import "_proyectos.scss";
+@import "_home.scss";
+@import "_matador.scss";
+@import "_sobreMi.scss";
+
+
+h1{
+	color: white;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 50%;
+    transform: translate(-50%, -25%);
+    display: block;
+    font-family: courier;
+    letter-spacing: 5px;
+}
+
+h2{
+	color: #57B78D;
+  font-size: 25px;
+	font-family: courier;
+	margin-bottom: 25px;
+}
+
+h3{
+	font-size: 18px;
+  line-height: 22px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+p{
+	font-size: 16px;
+	line-height: 22px;
+  font-family: courier;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+
+
+@media (min-width: 768px){
+	h1{
+		font-size: 70px;
+	}
+	h2{
+		font-size: 40px;
+	}
+	h3{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	p{
+		font-size: 18px;
+		line-height: 25px;
+	}
+}
+
+
+
+
+@media (min-width:1024px) {
+
+	.cabecera h1{
+	 font-size: 120px;
+	 margin-top: 26%;
+	 margin-left: 48%;
+	}
+	.introduccion h2{
+		font-size: 45px;}
+
+
+	#main {
+		background-color: #5BC6A1;
+	  padding: 15px;
+	  margin: 38px;
+		width: 96%;
+	}
+	.border {
+		background-color: white;
+		margin-top: -87px;
+	}
+	.icon-menu{
+		float: right;
+    font-size: 28px;
+    margin: 55px 51px;
+    cursor: pointer;
+	}
+	.logotipo{
+		margin-left: 53px;
+		margin-top: 60px;
+		width: 4%;
+	}
+}
+
+
+
+
+#main {
+	background-color: #5BC6A1;
+  padding: 10px;
+  margin: 10px;
+}
+.border {
+	background-color: white;
+	margin-top: 0%;
+ }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Courier;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+
+.contenedor {
+	width: 98%;
+	margin: auto;
+	margin-top: -6px;
+}
+
+header .contenedor {
+	display: table;
+}
+
+section {
+	width: 100%;
+}
+
+@media (min-width:1024px) {
+	.contenedor {
+		width: 1000px;
+	}
+}
