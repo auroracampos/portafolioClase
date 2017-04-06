@@ -1,9 +1,18 @@
-
-
+//MOVILL//
+#menu-barras{
+	display: none;
+}
 #cabecera {
 	position: relative;
 	padding: 3%;
-	padding-top: 25%;
+	padding-top: 55%;
+  margin-top: 0%;
+	margin-left: -10%
+}
+.logotipo{
+	margin-left: 7%;
+    margin-top: 9%;
+    position: absolute;
 }
 
 #cabecera img {
@@ -19,6 +28,50 @@
 	top: 35%;
 }
 
+
+#main {
+	background-color: #5BC6A1;
+  padding: 10px;
+  margin: 10px;
+}
+.border {
+	background-color: white;
+	margin-top: 0%;
+ }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Courier;
+}
+@media (max-width:720px){
+header {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+ }
+}
+.contenedor {
+	width: 98%;
+	margin: auto;
+	margin-top: -6px;
+}
+
+header .contenedor {
+	display: table;
+	width: 98%;
+}
+
+section {
+	width: 100%;
+}
 .contenedor {
 	font-family: courier;
 	color: 57B78D;
@@ -29,20 +82,27 @@
   line-height: 43px;
 	color: #57B78D;
 	position: relative;
+	margin-left: 58%;
+  padding-top: 45%;
 	}
+
 .contenedor p{
-	font-size: 14.5px;
-	line-height: 23px;
-  margin-left: 16px;
-	margin-top: 0%;
+	font-size: 16.5px;
+  line-height: 23px;
+	 margin-left: 121px;
+  margin-top: -16%;
 	position: absolute;
 }
-
+.contacto{
+	padding: 7%;
+  width: 100%;
+}
 .contacto ul{
 		list-style: none;
 	  display: flex;
 	  flex-direction: row;
-		margin-left: 30px;
+		margin-left: 25px;
+		margin-top: -10%;
 }
 .contacto li {
 	margin-right: 30px;
@@ -54,7 +114,11 @@
 	position:relative;
 	margin-bottom: 20%;
 }
-
+.infoSobreMi{
+	margin-top: 41%;
+	padding: 7%;
+	width: 100%;
+}
 .infoSobreMi h2{
 	color: #57B78D;
 	width: 87%;
@@ -62,7 +126,7 @@
 	margin-bottom: -9%;
 }
 .infoSobreMi p{
-	width: 87%;
+	width: 100%;
 	padding: 7%;
 	font-family: courier;
   font-size: 16px;
@@ -71,13 +135,14 @@
 }
 
 .habilidades{
-	width: 64%;
+	padding: 7%;
+  width: 100%;
 	font-family: courier;
   font-size: 16px;
 }
 .habilidades h3{
 	margin-left: 9%;
-	margin-top: 5%;
+	margin-top: 0%;
 }
 .habilidades ul{
 		display: flex;
@@ -94,21 +159,40 @@
 		text-align: center;
 		margin-bottom: 16px;
 	}
+
+	.habilidades .html5{
+		width: 96%;
+		margin-left: 3%;
+	}
+	.habilidades .css3{
+		width: 89%;
+		margin-left: 5%;
+	}
+
 	.experienciaLaboral h4{
 			color: #57B78D;
 			margin-top: 10px;
 	}
 	.experienciaLaboral {
-		margin-top: 7%;
+		margin-top: 0%;
 		margin-left: 7%;
+		padding: 7%;
+		width: 100%;
+		padding-top: 0%;
+		padding-bottom: 0%;
 	}
 .experienciaLaboral h3{
 	margin-bottom: 20px;
 }
-
+.experienciaLaboral p{
+	margin-bottom: 10%;
+}
 	.idiomas{
 		margin-left: 7%;
-		margin-top: 7%;
+		margin-top: 0%;
+		width: 100%;
+		padding: 7%;
+		padding-top: 1%;
 	}
 	.idiomas ul{
 		margin-top: 7%;
@@ -121,6 +205,9 @@
 	}
 	.interesesYaficiones{
 		padding-bottom: 5%;
+		width: 100%;
+		padding: 7%;
+		padding-top: 0%;
 	}
 	.interesesYaficiones h3{
 		margin-left: 7%;
@@ -129,7 +216,7 @@
 	.interesesYaficiones ul{
 		margin-top: 7%;
 		list-style: none;
-		width: 70%;
+		width: 86%;
     display: flex;
     flex-wrap: wrap;
     margin-left: 7%;
@@ -138,49 +225,60 @@
 	}
 		.interesesYaficiones li{
 			margin-right: 7%;
+			margin-bottom: 6%;
 		}
-@media (min-width:480px) {
+
+
+
+//TABLET//
+
+@media (min-width: 768px){
+	.logotipo{
+		bottom: 94%;
+    right: 92%;
+    position: absolute;
+	}
 	.contenedor h1{
 		font-size: 80px;
-		line-height: 62px;
-		margin-left: 8%;
+    line-height: 62px;
+    margin-left: 42%;
+    margin-top: 0%;
 	}
 	.contenedor p{
-		font-size: 21px;
-		margin-left: 8%;
-		width: 69%;
-		padding: 0%;
-		top: 104%;
+		font-size: 23px;
+    margin-left: 13%;
+    width: 69%;
+    top: 104%;
 	}
+
 
 	#cabecera img{
 		width: 45%;
-		margin-left: 39%;
-		margin-top: 6%;
+		margin-left: 56%;
+		margin-top: 14%;
+
 	}
 	#cabecera .contenedor{
 		position: absolute;
-		top: 12%;
-
-	}
+		top: 0%;
+		width: 100%;
+		margin-left: 5%;
+}
 	#cabecera{
-		margin-top: 90px;
 		position: relative;
 		padding: 5%;
-		padding-top: 25%;
+		margin-top: 12%;
 	}
 	.contacto{
-		margin-top: -3%;
-		position: relative;
-		width: 66%;
-		flex-direction: row;
-		display: flex;
 		margin-left: 2%;
+		padding-bottom: 0%;
+		width: 80%;
 	}
 
 	.infoSobreMi{
-		width: 119%;
+		width: 100%;
 		margin-top: -9%;
+		padding-bottom: 0%;
 	}
 	.infoSobreMi h2{
 		width: 66%;
@@ -188,19 +286,16 @@
 		font-size: 2.3rem;
 	}
 	.infoSobreMi p{
-		width: 69%;
-		font-family: courier;
-		font-size: 16px;
-		line-height: 22px;
-		text-align: left;
+		width: 100%;
 	}
 	.habilidades{
-		margin-left: 5%;
+		padding-top: 0%;
+		padding-bottom: 4%;
 	}
 	.habilidades ul{
 		display: flex;
+		margin-left: 3%;
     flex-wrap: wrap;
-    margin-left: 4%;
     justify-content: space-around;
 		list-style: none;
 	}
@@ -209,15 +304,56 @@
 		margin-top: 5%;
 	}
 	.habilidades li{
-		width: 31%;
+		width: 20%;
 		text-align: center;
 		margin-bottom: 16px;
 		margin-right: 10%;
+		padding-top: 0%;
+	}
+
+	.experienciaLaboral{
+		width: 80%;
+		padding: 0%;
+		margin-right: -1px;
+		margin-left: 12%;
+	}
+
+	.experienciaLaboral p{
+		margin-bottom: 5%;
+	}
+
+	.idiomas{
+		margin-left: 5%;
+		margin-top: 0%;
+		width: 88%;
+		padding: 7%;
+		padding-top: 1%;
+		padding-bottom: 0%;
+	}
+
+	.idiomas ul{
+		margin-top: 6%;
+		display: flex;
+	}
+	.idiomas li{
+		margin-right: 36%;
+	}
+	.interesesYaficiones{
+		padding: 5%;
+		padding-top: 0%;
+	}
+	.interesesYaficiones h3{
+		margin-top: 5%;
 	}
 	.interesesYaficiones ul{
-		width: 62%;
+		width: 86%;
+    margin-left: 8%;
 	}
 }
+
+
+
+//DESKTOP//
 
 @media (min-width:1024px) {
 	p{
@@ -230,29 +366,32 @@
 	h3{
 		font-size: 20px;
 	}
+
 	.contacto {
     width: 42%;
     display: flex;
 		flex-direction: row;
-    margin-left: 21.8%;
+    margin-left: 13.8%;
 	}
 	.contacto li{
 		margin-right: 50%;
 	}
 	.contenedor p{
-		font-size: 39px;
+		font-size: 47px;
+    width: 82%;
+    top: 100%;
 	}
 	.contenedor h1{
-		font-size: 150px;
-		line-height: 116px;
+		font-size: 170px;
+    line-height: 133px;
 	}
 	.contenedor{
 		width: 1649px;
 		margin-top: 0.5%;
 	}
 	#cabecera .contenedor{
-		margin-left: 13%;
-		margin-top: 52px;
+		width: 33%;
+		padding-top: 13%;
 	}
 	#cabecera img{
 		width: 26%;
@@ -262,37 +401,58 @@
 	}
 	#cabecera {
 		position: relative;
-		padding: 3%;
-		padding-top: 10%;
+    padding-top: 14%;
+    margin-top: 6%;
+    margin-left: 102px;
 	}
+
+		#main {
+			background-color: #5BC6A1;
+		  padding: 15px;
+		  margin: 38px;
+		}
+		.border {
+			background-color: white;
+			margin-top: -87px;
+		}
+		.icon-menu{
+			float: right;
+	    font-size: 28px;
+	    margin: 55px 51px;
+	    cursor: pointer;
+		}
+		.logotipo{
+			bottom: -52%;
+    	right: 95%;
+    	position: absolute;
+		}
 
 	.infoSobreMi{
 		width: 77%;
-    margin-left: 13.6%;
-
+    margin-left: 10.6%;
 	}
 	.infoSobreMi h2{
-		width: 66%;
+		width: 100%;
 		padding-bottom: 4%;
-		margin-left: 6%;
 	}
 	.infoSobreMi p{
-		width: 69%;
-    margin-left: 6%;
+		width: 100%;
     font-family: courier;
     font-size: 18px;
     line-height: 22px;
-    text-align: left;
+    padding-bottom: 0%;
 	}
 	.habilidades{
-		width: 40%;
-		margin-left: 22%;
-		margin-top: 7%;
+		width: 66%;
+		margin-left: 12%;
+		margin-top: 9%;
+		padding-bottom: 2%;
 	}
 	.habilidades ul{
 		width: 100%;
 		display: flex;
     justify-content: space-around;
+		margin-left: 5%;
 	}
 	.habilidades h3{
 		margin-top: -11%;
@@ -303,25 +463,27 @@
 	}
 	.experienciaLaboral{
 		margin-top: 3%;
-		margin-left: 24%;
+		margin-left: 15%;
+		width: 63%;
 	}
 	.experienciaLaboral h4{
 		font-size: 1.5rem;
 	}
 	.idiomas{
-		margin-top: 4%;
-		margin-left: 24%;
+		margin-left: 15%;
 	}
 	.idiomas ul{
 		width: 18%;
 		margin-top: 3%;
 	}
+	.idiomas li{
+		width: 90%;
+	}
 
 	.interesesYaficiones{
-		margin-left: 18%;
-		margin-top: -2%;
+		margin-left: 13%;
+    margin-top: -2%;
+    width: 70%;
 	}
-	.interesesYaficiones h3{
 
-	}
 }
