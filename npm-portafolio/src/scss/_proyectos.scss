@@ -1,3 +1,4 @@
+@media (max-width: 768px) {
 #menu-barras{
 	display: none;
 }
@@ -28,13 +29,77 @@
 body {
 	font-family: Courier;
 }
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 89%;
+	display: flex;
+}
 
-
-
-
-
-
+.container ul{
+	margin-top: 26%;
+	margin-bottom: 0%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
 .container li{
+	width: 100%;
+	list-style: none;
+}
+.container img{
+	width: 298px;
+}
+
+.galeria1 h5{
+	margin-top: -13%;
+	padding-left: 9%;
+}
+.galeria2 h5{
+	margin-left: 7%;
+	margin-top: -13%;
+}
+.galeria3 h5{
+	margin-left: 13%;
+	margin-top: -13%;
+}
+
+
+	h5{
+		position: absolute;
+		left: 48px;
+		top: 211px;
+		font-size: courier;
+		font-size: 24px;
+		font-weight: normal;
+		list-style: none;
+		color: white;
+	}
+	#efecto{
+		position: relative;
+		width: 335px;
+    height: 235px;
+    padding-bottom: -7%;
+    padding-top: -23%;
+    margin-top: -67.5%;
+		background-color: rgba(0,0,0,.3);
+		opacity: 0;
+		transition: 0.80s;
+	}
+
+	.galeria li:hover #efecto{
+		opacity: 1;
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+/*.container li{
   width: 100%;
   list-style: none;
   margin-bottom: 10%;
@@ -103,7 +168,7 @@ body {
     padding: 0%;
     content:'BRANDING - TITELLESTIU';
 }
-
+*/
 
 
 
@@ -113,7 +178,75 @@ body {
     right: 93%;
     position: absolute;
   }
-  .galeria li.galeria1:after{
+	.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+    display: flex;
+  }
+
+  .container ul{
+    margin-top: 26%;
+		margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+		width: 100%;
+  }
+  .container li{
+    width: 100%;
+		height: 45%;
+    list-style: none;
+    margin-bottom: 11%;
+    justify-content: space-around;
+    margin-right: 2%;
+  }
+  .container img{
+    width: 485px;
+  }
+
+	.galeria1 h5{
+		margin-top: -13%;
+    padding-left: 9%;
+	}
+	.galeria2 h5{
+		margin-left: 7%;
+    margin-top: -13%;
+	}
+	.galeria3 h5{
+		margin-left: 13%;
+		margin-top: -13%;
+	}
+
+
+		h5{
+			position: absolute;
+			left: 48px;
+    	top: 211px;
+    	font-size: courier;
+    	font-size: 24px;
+    	font-weight: normal;
+			list-style: none;
+			color: white;
+		}
+		#efecto{
+			position: relative;
+	    width: 485px;
+	    height: 326px;
+	    padding-bottom: -7%;
+	    padding-top: -23%;
+	    margin-top: -67.5%;
+			background-color: rgba(0,0,0,.3);
+			opacity: 0;
+			transition: 0.80s;
+		}
+
+		.galeria li:hover #efecto{
+			opacity: 1;
+			display: none;
+		}
+
+	}
+  /*.galeria li.galeria1:after{
     width: 590px;
     height: 393px;
   }
@@ -125,19 +258,87 @@ body {
 .galeria li.galeria3:after{
   width: 590px;
   height: 396px;
- }
-}
+}*/
+
 @media (min-width:1024px) {
-  .container{
+	.logotipo{
+    top: 4%;
+    right: 97%;
+    position: absolute;
+  }
+	.container{
     margin-left: auto;
     margin-right: auto;
     width: 95%;
     display: flex;
   }
-	.logotipo{
-    top: 4%;
-    right: 97%;
-    position: absolute;
+
+  .container ul{
+    margin-top: 18%;
+		margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+		width: 100%;
+  }
+  .container li{
+    width: 100%;
+		height: 45%;
+    list-style: none;
+    margin-bottom: 11%;
+    justify-content: space-around;
+    margin-right: 2%;
+  }
+  .container img{
+    width: 485px;
+  }
+
+	.galeria1 h5{
+		margin-top: -13%;
+    padding-left: 9%;
+	}
+	.galeria2 h5{
+		margin-left: 7%;
+    margin-top: -13%;
+	}
+	.galeria3 h5{
+		margin-left: 13%;
+		margin-top: -13%;
+	}
+	#efecto{
+		position: relative;
+    width: 485px;
+    height: 326px;
+    padding-bottom: -7%;
+    padding-top: -23%;
+    margin-top: -67.5%;
+		background-color: rgba(0,0,0,.3);
+		opacity: 0;
+		transition: 0.80s;
+	}
+
+	.galeria li:hover #efecto{
+		opacity: 1;
+	}
+
+
+		h5{
+			position: absolute;
+			left: 48px;
+    	top: 211px;
+    	font-size: courier;
+    	font-size: 24px;
+    	font-weight: normal;
+			list-style: none;
+			color: white;
+		}
+
+	}
+	/*
+	.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    display: flex;
   }
   .grid{
     position: relative;
@@ -159,12 +360,33 @@ body {
   .container img{
     width: 485px;
   }
+	.galeria li:after{
+		padding: 100px 0 0;
+		text-align: center;
+		font-weight: bold;
+	  font-size: 20px;
+		color: white;
+		font-family: courier;
+	    height:231px;
+		 background:black;
+	    opacity:0;
+	    transition: all 0.5s;
+	    -webkit-transition: all 0.5s;
+	    position: absolute;
+	  }
+
+	  .galeria li:hover:after{
+		opacity:0.60;
+	}
+
+
   .galeria li.galeria1:after{
     bottom: 24%;
     left: 0px;
     padding: 0%;
     width: 486px;
     height: 324px;
+		content:'FOTOGRAFÍA - MATADOR';
   }
 
 .galeria li.galeria2:after{
@@ -173,6 +395,7 @@ body {
     padding: 0%;
     width: 486px;
     height: 324px;
+		content:'INFOGRAFÍAS - GREENPEACE';
 }
 .galeria li.galeria3:after{
     bottom: 24%;
@@ -180,5 +403,5 @@ body {
     padding: 0%;
     width: 486px;
     height: 324px;
- }
-}
+    content:'BRANDING - TITELLESTIU';
+ }*/

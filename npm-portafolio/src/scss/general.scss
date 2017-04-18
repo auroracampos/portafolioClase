@@ -11,8 +11,8 @@ h1{
 	color: white;
     font-size: 40px;
     position: absolute;
-    margin-top: 28%;
-    margin-left: 50%;
+    margin-top: 31%;
+    margin-left: 46%;
     transform: translate(-50%, -25%);
     display: block;
     font-family: courier;
@@ -54,6 +54,8 @@ p{
 @media (min-width: 768px){
 	h1{
 		font-size: 70px;
+		margin-top: 36%;
+    margin-left: 50%;
 	}
 	.texto h1{
 		font-size: 185px;
@@ -79,7 +81,7 @@ p{
 
 	.cabecera h1{
 	 font-size: 120px;
-	 margin-top: 26%;
+	 margin-top: 31%;
 	 margin-left: 48%;
 	}
 	.texto h1{
