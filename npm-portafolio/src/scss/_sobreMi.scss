@@ -10,9 +10,10 @@
 	margin-left: -10%
 }
 .logotipo{
-	margin-left: 7%;
-    margin-top: 9%;
+	top: 57%;
+    right: 84%;
     position: absolute;
+    margin: 0%;
 }
 
 #cabecera img {
@@ -234,9 +235,13 @@ section {
 
 @media (min-width: 768px){
 	.logotipo{
-		bottom: 94%;
+		top: 3%;
     right: 92%;
     position: absolute;
+	}
+	header .contenedor {
+		display: table;
+		width: 88%;
 	}
 	.contenedor h1{
 		font-size: 80px;
@@ -267,7 +272,6 @@ section {
 	#cabecera{
 		position: relative;
 		padding: 5%;
-		margin-top: 12%;
 	}
 	.contacto{
 		margin-left: 2%;
@@ -391,19 +395,19 @@ section {
 	}
 	#cabecera .contenedor{
 		width: 33%;
-		padding-top: 13%;
+    padding-top: 7%;
+    margin-left: 10%;
 	}
 	#cabecera img{
 		width: 26%;
-    margin-left: 44%;
-		margin-top: 0px;
-		margin-bottom: 3%;
+    margin-left: 50%;
+		margin-top: 31px;
 	}
 	#cabecera {
 		position: relative;
-    padding-top: 14%;
-    margin-top: 6%;
-    margin-left: 102px;
+    padding: 8%;
+    margin-left: 0px;
+    width: 100%;
 	}
 
 		#main {
@@ -413,7 +417,6 @@ section {
 		}
 		.border {
 			background-color: white;
-			margin-top: -87px;
 		}
 		.icon-menu{
 			float: right;
@@ -422,13 +425,14 @@ section {
 	    cursor: pointer;
 		}
 		.logotipo{
-			bottom: -52%;
-    	right: 95%;
-    	position: absolute;
+			top: 12%;
+    right: 94%;
+    position: absolute;
+    margin: 0%;
 		}
 
 	.infoSobreMi{
-		width: 77%;
+		width: 76%;
     margin-left: 10.6%;
 	}
 	.infoSobreMi h2{
@@ -463,21 +467,24 @@ section {
 	}
 	.experienciaLaboral{
 		margin-top: 3%;
-		margin-left: 15%;
-		width: 63%;
+		margin-left: 22%;
+		width: 61%;
 	}
 	.experienciaLaboral h4{
 		font-size: 1.5rem;
 	}
 	.idiomas{
 		margin-left: 15%;
+		width: 85%;
+    padding-right: 0%;
 	}
 	.idiomas ul{
 		width: 18%;
 		margin-top: 3%;
 	}
 	.idiomas li{
-		width: 90%;
+		width: 92%;
+		margin-right: 73%;
 	}
 
 	.interesesYaficiones{

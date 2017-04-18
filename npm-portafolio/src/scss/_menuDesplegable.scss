@@ -32,6 +32,7 @@
 	transform: translateY(-2%);
 }
 
+
 .menu a {
 	display: block;
   padding: 17px 3px;
@@ -43,10 +44,49 @@
   font-weight: 500;
 }
 
-
 .menu li:hover a{
 	color: #191b1a;
 }
+
+//----------------------
+.menu2 {
+	position: absolute;
+	top: 64px;
+	left: 100%;
+	width: 70%;
+	transition: all 0.3s;
+}
+
+
+.menu2 ul {
+	display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 109px;
+	position: absolute;
+  width: 100%;
+	background: #5BC6A1;
+	transform: translateY(-2%);
+}
+
+.menu2 a {
+	display: block;
+  padding: 17px 3px;
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 23px;
+  font-family: courier;
+  font-weight: 500;
+}
+
+
+.menu2 li:hover a{
+	color: #191b1a;
+}
+
+//------------------------
+
 
 
   #menu-barras:checked ~ .menu {
@@ -73,11 +113,12 @@ header {
   color: black;
   display: flex;
   justify-content: flex-end;
-	width: 100%;
+	width: 96%;
 	height: 50px;
 	top: 35px;
 	left: 20px;
 	z-index: 100;
+	position: absolute;
 }
 
 .logotipo{
@@ -88,10 +129,11 @@ header {
   display: none;
 }
 .menu{
-	 width: 100%;
-    position: absolute;
-    left: 45%;
-    top: 10%;
+	width: 63%;
+	position: absolute;
+	left: 37%;
+	top: 10%;
+	height: 5%;
 }
 .visible{
 	left:5%;
@@ -116,8 +158,8 @@ header label {
   -webkit-box-direction: normal;
   flex-direction: row;
 	padding: 0%;
-	width: 63%;
-  margin-top: -8%;
+	width: 85%;
+  margin-top: -6%;
   margin-left: -20%;
   text-align: center;
   list-style: none;
@@ -129,31 +171,126 @@ header label {
    color: black;
    text-decoration: none;
    line-height: 60px;
-   font-size: 23px;
+   font-size: 21px;
    font-family: courier;
    font-weight: 500;
  }
  .menu li{
 	 margin-right: 21px;
  }
+ .menu li:hover a{
+ 	color: #5BC6A1;
+ }
+
+
+ //------------------------------------------
+ .menu2{
+ 	width: 63%;
+ 	position: absolute;
+ 	left: 37%;
+ 	top: 10%;
+ 	height: 5%;
+}
+
+ .menu2 ul ul {
+   display: none;
+ }
+
+ .menu2 ul{
+ 	display: flex;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+   flex-direction: row;
+ 	padding: 0%;
+ 	width: 85%;
+   margin-top: -6%;
+   margin-left: -20%;
+   text-align: center;
+   list-style: none;
+ 	background: rgba(127, 127, 127, 0);
+  }
+  .menu2 a {
+  	display: block;
+    padding: 17px 3px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 21px;
+    font-family: courier;
+    font-weight: 500;
+  }
+  .menu2 li{
+ 	 margin-right: 21px;
+  }
+  .menu2 li:hover a{
+  	color: #5BC6A1;
+  }
 }
 
 
 //DESKTOP//
 @media (min-width:1024px) {
 	header {
-		width: 100%;
+		width: 98%;
     height: 50px;
     top: 35px;
     left: 20px;
     z-index: 100;
 	}
+.menu{
+	width: 53%;
+	position: absolute;
+	left: 40%;
+}
 	.menu ul{
-		margin-top: 49%;
-		margin-bottom: -14%;
-		margin-left: 22%;
+		margin-top: 3%;
+		margin-left: -14%;
 	}
 	.menu li{
 		margin-right: 13%;
 	}
+	.menu li:hover a{
+	 color: #5BC6A1;
+	}
+
+
+
+
+//----------------------------------
+	.menu2{
+		width: 53%;
+		position: absolute;
+		left: 40%;
+
+	}
+		.menu2 ul{
+			display: flex;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			flex-direction: row;
+			padding: 0%;
+			width: 85%;
+			margin-top: 3.2%;
+			margin-left: -14%;
+			text-align: center;
+			list-style: none;
+		}
+		.menu2 li{
+			margin-right: 13%;
+
+		}
+		.menu2 a{
+			display: block;
+		   padding: 17px 3px;
+		   color: white;
+		   text-decoration: none;
+		   line-height: 60px;
+		   font-size: 21px;
+		   font-family: courier;
+		   font-weight: 500;
+		}
+
+		.menu2 li:hover a{
+		 color: #5BC6A1;
+		}
 }

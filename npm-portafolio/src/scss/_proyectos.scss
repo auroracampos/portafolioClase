@@ -1,0 +1,184 @@
+#menu-barras{
+	display: none;
+}
+.logotipo{
+	  top: 57%;
+    right: 84%;
+    position: absolute;
+    margin: 0%;
+}
+
+
+#main {
+	background-color: #5BC6A1;
+  padding: 10px;
+  margin: 10px;
+}
+.border {
+	background-color: white;
+	margin-top: 0%;
+ }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Courier;
+}
+
+
+
+
+
+
+.container li{
+  width: 100%;
+  list-style: none;
+  margin-bottom: 10%;
+}
+.container img{
+  width: 100%;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 81%;
+}
+.container ul{
+  margin-top: 21%;
+}
+.grid{
+  display:inline;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.galeria li:after{
+	padding: 100px 0 0;
+	text-align: center;
+	font-weight: bold;
+  font-size: 20px;
+	color: white;
+	font-family: courier;
+    height:231px;
+	 background:black;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    position: absolute;
+  }
+
+  .galeria li:hover:after{
+	opacity:0.60;
+}
+
+.galeria li.galeria1:after{
+    width: 271px;
+    height: 183px;
+    bottom: 70%;
+    left: 0px;
+    padding: 0%;
+    -webkit-transition: opacity 0.3s;
+    content:'FOTOGRAFÍA - MATADOR';
+}
+
+.galeria li.galeria2:after{
+    width: 271px;
+    height: 183px;
+    bottom: 35%;
+    left: 0px;
+    padding: 0%;
+    content:'INFOGRAFÍAS - GREENPEACE';
+}
+
+.galeria li.galeria3:after{
+    width: 271px;
+    height: 183px;
+    bottom: 0%;
+    left: 0px;
+    padding: 0%;
+    content:'BRANDING - TITELLESTIU';
+}
+
+
+
+
+@media (min-width: 768px) {
+  .logotipo{
+    top: 11%;
+    right: 93%;
+    position: absolute;
+  }
+  .galeria li.galeria1:after{
+    width: 590px;
+    height: 393px;
+  }
+
+.galeria li.galeria2:after{
+  width: 590px;
+  height: 393px;
+}
+.galeria li.galeria3:after{
+  width: 590px;
+  height: 396px;
+ }
+}
+@media (min-width:1024px) {
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    display: flex;
+  }
+	.logotipo{
+    top: 4%;
+    right: 97%;
+    position: absolute;
+  }
+  .grid{
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+  }
+  .container ul{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+  }
+  .container li{
+    width: 100%;
+    list-style: none;
+    margin-bottom: 13%;
+    justify-content: space-around;
+    margin-right: 2%;
+  }
+  .container img{
+    width: 485px;
+  }
+  .galeria li.galeria1:after{
+    bottom: 24%;
+    left: 0px;
+    padding: 0%;
+    width: 486px;
+    height: 324px;
+  }
+
+.galeria li.galeria2:after{
+    bottom: 24%;
+    left: 35.35%;
+    padding: 0%;
+    width: 486px;
+    height: 324px;
+}
+.galeria li.galeria3:after{
+    bottom: 24%;
+    left: 70.6%;
+    padding: 0%;
+    width: 486px;
+    height: 324px;
+ }
+}
