@@ -46,39 +46,45 @@ body {
 .container li{
 	width: 100%;
 	list-style: none;
+	margin-bottom: 10%;
 }
 .container img{
 	width: 298px;
 }
 
 .galeria1 h5{
-	margin-top: -13%;
-	padding-left: 9%;
+	margin-top: -44%;
+  margin-left: -8%;
 }
 .galeria2 h5{
-	margin-left: 7%;
-	margin-top: -13%;
+	margin-left: -14%;
+	margin-top: -44%;
 }
 .galeria3 h5{
-	margin-left: 13%;
-	margin-top: -13%;
+	margin-left: -10%;
+  margin-top: -44%;
 }
 
+.aplicaciones2 li img{
+	width: 100%;
+	margin-bottom: 10%;
+}
 
 	h5{
 		position: absolute;
 		left: 48px;
 		top: 211px;
 		font-size: courier;
-		font-size: 24px;
+		font-size: 20px;
 		font-weight: normal;
 		list-style: none;
 		color: white;
+		width: 100%;
 	}
 	#efecto{
 		position: relative;
-		width: 335px;
-    height: 235px;
+		width: 298px;
+		height: 198px;
     padding-bottom: -7%;
     padding-top: -23%;
     margin-top: -67.5%;
@@ -89,7 +95,6 @@ body {
 
 	.galeria li:hover #efecto{
 		opacity: 1;
-		display: none;
 	}
 
 }
@@ -209,12 +214,13 @@ body {
     padding-left: 9%;
 	}
 	.galeria2 h5{
-		margin-left: 7%;
+		margin-left: -3%;
     margin-top: -13%;
 	}
 	.galeria3 h5{
-		margin-left: 13%;
+		margin-left: 0%;
 		margin-top: -13%;
+
 	}
 
 
@@ -223,10 +229,11 @@ body {
 			left: 48px;
     	top: 211px;
     	font-size: courier;
-    	font-size: 24px;
+    	font-size: 30px;
     	font-weight: normal;
 			list-style: none;
 			color: white;
+			width: 100%;
 		}
 		#efecto{
 			position: relative;
@@ -242,7 +249,6 @@ body {
 
 		.galeria li:hover #efecto{
 			opacity: 1;
-			display: none;
 		}
 
 	}

@@ -2,17 +2,46 @@
 body{
   text-align: left;
   width: 100%;
+  margin: 0px;
+}
+#main {
+	background-color: #5BC6A1;
+  padding: 10px;
+  margin: 10px;
+}
+.border {
+	background-color: white;
+	margin-top: 0%;
+  padding-bottom: 1%;
+ }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-
+.migas-pan{
+  display: none;
+}
 .cabecera{
    width: 100%;
    height: 100%;
 }
 .foto-cabecera{
-  max-width: 100%;
+    max-width: 100%;
+    padding: 12%;
+    padding-top: 15%;
 }
-
+.informacionProyecto2{
+  width: 77%;
+  margin: 45px;
+  margin-top: 0%;
+}
+.tratamientoDelColor2 ul{
+  list-style: none;
+  width: 100%;
+}
 
  .introduccion .textoBold{
    font-weight: bold;
@@ -22,6 +51,112 @@ body{
    margin-bottom: 10px;
  }
 
-.programasUtilizados ul{
-  display: block;
+.programasUtilizados2 ul{
+  list-style: none;
+display: -webkit-box;
+display: flex;
+flex-wrap: wrap;
+-webkit-box-pack: justify;
+justify-content: space-between;
+padding: 0px;
+width: 100%;
+}
+
+.tratamientoDelColor2 img{
+  width: 100%;
+  margin-bottom: 7%;
+}
+
+.aplicaciones2 ul{
+  list-style: none;
+  width: 100%;
+}
+
+  @media (min-width:768px) {
+    .migas-pan{
+      display: none;
+    }
+    .informacionProyecto2{
+      width: 77%;
+      margin: 82px;
+      margin-top: 0%;
+    }
+    .tratamientoTipografico2 p{
+      width: 96%;
+      margin-bottom: 10%;
+  }
+  .tratamientoTipografico2 img{
+    float: left;
+    margin-right: 5%;
+  }
+  .tratamientoDelColor2 p{
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .tratamientoDelColor2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .tratamientoDelColor2 li{
+    margin-right: 10%;
+  }
+  .aplicaciones2 li img{
+    width: 100%;
+  }
+}
+@media (min-width:1024px) {
+  .informacionProyecto2{
+    width: 70%;
+    margin: 0 auto;
+    padding: 1%;
+    padding-top: 0%;
+  }
+  .migas-pan {
+    margin-left: 13%;
+      margin-top: 10.5%;
+      position: absolute;
+      display: inline;
+  }
+  .migas-pan a:hover{
+    background-color: transparent;
+    text-decoration: none;
+    color: #5BC6A1;
+  }
+  .miga a{
+  text-decoration: none;
+  color: black;
+  }
+  .programasUtilizados2 ul{
+    width: 52%;
+  }
+  .tratamientoTipografico2 img{
+    width: 33%;
+  }
+  .tratamientoTipografico2 p{
+    width: 89%;
+    margin-bottom: 46%;
+  }
+  .tratamientoDelColor2 p{
+    width: 92%;
+    margin-right: 8%;
+    margin-bottom: 9%;
+  }
+  .tratamientoDelColor2 img{
+    width: 100%;
+  }
+.tratamientoDelColor2 ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.tratamientoDelColor2 li{
+  margin-right: 10%;
+}
+.aplicaciones2 li img{
+  width: 100%;
+}
+.aplicaciones2 li{
+  margin-bottom: 5%;
+}
 }

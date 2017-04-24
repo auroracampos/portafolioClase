@@ -22,7 +22,9 @@ body{
 	box-sizing: border-box;
 }
 
-
+.migas-pan{
+  display: none;
+}
 .informacionProyecto{
   width: 77%;
   margin: 38px;
@@ -96,6 +98,9 @@ div.infoReferente{
 }
     @media (min-width:768px) {
 
+    .migas-pan{
+      display: none;
+    }
     .informacionProyecto{
       margin: 85px;
       margin-top: 0%;
@@ -128,6 +133,21 @@ div.infoReferente{
   }
 
   @media (min-width:1024px) {
+    .migas-pan {
+      margin-left: 13%;
+        margin-top: 10.5%;
+        position: absolute;
+        display: inline;
+    }
+    .migas-pan a:hover{
+      background-color: transparent;
+      text-decoration: none;
+      color: #5BC6A1;
+    }
+    .miga a{
+    text-decoration: none;
+    color: black;
+    }
     .foto-cabecera{
       padding: 14%;
       padding-top: 13%;
